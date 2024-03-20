@@ -1,0 +1,40 @@
+.card {
+    width: 1200px; /* Adjust width as needed */
+    height: 1000px;
+    margin: 200px auto; /* Adjust margin as needed */
+    border-radius: 10px; /* Adjust border radius as needed */
+    box-shadow: 0 0 10px rgba(127, 105, 105, 0.1); /* Adjust box shadow as needed */
+  }
+  
+  /* Change dropdown colors */
+  .dropdown-toggle {
+    background-color: #f8f9fa; /* Adjust background color as needed */
+    color: #495057; /* Adjust text color as needed */
+    border: 1px solid #ced4da; /* Adjust border color as needed */
+  }
+  
+  .dropdown-toggle:focus {
+    background-color: #e9ecef; /* Adjust background color as needed */
+    border-color: #ced4da; /* Adjust border color as needed */
+  }
+  
+  .dropdown-menu {
+    background-color: #fff; /* Adjust background color as needed */
+    border: 1px solid rgba(0, 0, 0, 0.15); /* Adjust border color as needed */
+  }
+  
+  .dropdown-item {
+    color: #212529; /* Adjust text color as needed */
+  }
+  
+  .dropdown-item:hover,
+  .dropdown-item:focus {
+    background-color: #f8f9fa; /* Adjust background color as needed */
+    color: #212529; /* Adjust text color as needed */
+  }
+  
+  .dropdown-item.active,
+  .dropdown-item:active {
+    background-color: #e9ecef; /* Adjust background color as needed */
+    color: #212529; /* Adjust text color as needed */
+  }
